@@ -1,0 +1,24 @@
+{
+  "name": "runequest-character-sheet",
+  "version": "1.0.0",
+  "description": "runequest character sheet user friendly",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irc-developer/runequest-character-sheet.git"
+  },
+  "author": "Iván Rodríguez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/irc-developer/runequest-character-sheet/issues"
+  },
+  "homepage": "https://github.com/irc-developer/runequest-character-sheet#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.0",
+    "electron": "^14.0.0",
+    "jquery": "^3.6.0"
+  }
+}
