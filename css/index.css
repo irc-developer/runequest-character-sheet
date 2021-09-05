@@ -1,0 +1,31 @@
+td {
+    text-align: center;
+}
+
+div {
+    border: 2px solid black;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.basis-50 {
+    flex-basis: 50%;
+}
+.basis-34 {
+    flex-basis: 34%;
+}
+.basis-66 {
+    flex-basis: 66%;
+}
+.basis-100 {
+    flex-basis: 100%;
+}
+
+.caja {
+    height: 500px;
+}
+.flex-direction-column {
+    flex-direction: column;
+}
