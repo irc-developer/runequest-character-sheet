@@ -1,13 +1,12 @@
-td {
-    text-align: center;
+h2, .versalita {
+    font-variant: small-caps;    
 }
 
 div {
     border: 2px solid black;
 }
-
-.flex-wrap {
-    flex-wrap: wrap;
+td {
+    text-align: center;
 }
 
 .basis-50 {
@@ -23,9 +22,48 @@ div {
     flex-basis: 100%;
 }
 
-.caja {
-    height: 500px;
-}
 .flex-direction-column {
     flex-direction: column;
+}
+.flex-wrap {
+    flex-wrap: wrap;
+}
+.rune-font {
+    font-family: "rune"!important;
+    font-size: 2em;
+}
+
+@font-face {
+    font-family: rune;
+    src: url('../fonts/GloranthaCoreRunes1.5.ttf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.arrow1::after {
+    /* little make up */
+    font-size: 2em;
+    /* whatever needed*/
+    padding: 0 0.5em;
+    /* whatever needed*/
+    vertical-align: -0.1em;
+    /* whatever needed*/
+    content: '\21fe';
+    display:inline-block;
+    transform:scale(2,1);
+    transform:rotate(180deg)
+}
+
+.arrow2::after {
+    content: '\2192';
+    /* little make up */
+    font-size: 2em;
+    /* whatever needed*/
+    padding: 0 0.5em;
+    /* whatever needed*/
+    vertical-align: -0.1em;
+    /* whatever needed*/
+    content: '\21fe';
+    display:inline-block;
+    transform:scale(2,1);
 }

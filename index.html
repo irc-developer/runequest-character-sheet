@@ -15,7 +15,7 @@
 	<div class="d-flex">
 		<div class="d-flex flex-wrap basis-66">
 			<div class="basis-50">
-				<h2 class="text-center">CARACTERÍSTICAS</h2>
+				<h2 class="text-center">Características</h2>
 				<table class="table border m-1">
 					<thead>
 						<tr>
@@ -25,7 +25,7 @@
 							<th class="text-center" scope="col">Actual</th>
 						</tr>
 					</thead>
-					<tbody>
+					<tbody class="versalita">
 						<tr>
 							<th scope="row">FUERZA</th>
 							<td>12</td>
@@ -72,7 +72,7 @@
 				</table>
 			</div>
 			<div class="basis-50">
-				<h2 class="text-center">ATRIBUTOS</h2>
+				<h2 class="text-center versalita">Atributos</h2>
 				<table class="table border m-1">
 					<thead>
 						<tr>
@@ -133,42 +133,53 @@
 								<th scope="col">%</th>
 							</tr>
 						</thead>
-						<tbody>
+						<tbody class="align-middle">
 							<tr>
-								<td>R</td>
+								<td class="rune-font">w</td>
 								<td>
-									<div class="dropdown">
-										<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-										  Dropdown button
-										</button>
-										<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-										  <li><a class="dropdown-item" href="#">Action</a></li>
-										  <li><a class="dropdown-item" href="#">Another action</a></li>
-										  <li><a class="dropdown-item" href="#">Something else here</a></li>
-										</ul>
-									  </div>
+									<select class="form-select" aria-label="Default select example">
+										<option selected>Escoge una runa:</option>
+										<option value="1"><span class="rune-font">w</span> One</option>
+										<option value="2">Two</option>
+										<option value="3">Three</option>
+									</select>
 								</td>
 								<td><input type="checkbox"></td>
 								<td><input type="checkbox"></td>
 								<td>30%</td>
 							</tr>
 							<tr>
-								<td>R</td>
-								<td>Runa 2</td>
+								<td class="rune-font">p</td>
+								<td><select class="form-select" aria-label="Default select example">
+										<option selected>Escoge una runa:</option>
+										<option value="1"><span class="rune-font">p</span> One</option>
+										<option value="2">Two</option>
+										<option value="3">Three</option>
+									</select></td>
 								<td><input type="checkbox"></td>
 								<td><input type="checkbox"></td>
 								<td>30%</td>
 							</tr>
 							<tr>
-								<td>R</td>
-								<td>Runa 3</td>
+								<td class="rune-font">s</td>
+								<td><select class="form-select" aria-label="Default select example">
+										<option selected>Escoge una runa:</option>
+										<option value="1"><span class="rune-font">s</span> One</option>
+										<option value="2">Two</option>
+										<option value="3">Three</option>
+									</select></td>
 								<td><input type="checkbox"></td>
 								<td><input type="checkbox"></td>
 								<td>30%</td>
 							</tr>
 							<tr>
-								<td>R</td>
-								<td>Runa 4</td>
+								<td class="rune-font">d</td>
+								<td><select class="form-select" aria-label="Default select example">
+										<option selected>Escoge una runa:</option>
+										<option value="1"><span class="rune-font">s</span> One</option>
+										<option value="2">Two</option>
+										<option value="3">Three</option>
+									</select></td>
 								<td><input type="checkbox"></td>
 								<td><input type="checkbox"></td>
 								<td>30%</td>
@@ -207,7 +218,7 @@
 				</div>
 			</div>
 			<div class="basis-100">
-				<h2 class="text-center">Puntos de Tenacidad (PT)</h2>
+				<h2 class="text-center"><span class="arrow1"></span>Puntos de Tenacidad (PT)<span class="arrow2"></span></h2>
 				<div>
 					<input type="radio" name="tenacityRadioBName" id="radioBtnMagicPoint0" checked> 0
 					<input type="radio" name="tenacityRadioBName" id="radioBtnMagicPoint1"> 1
@@ -237,233 +248,16 @@
 	</div>
 
 	<div class="d-flex">
-		<div class="d-flex flex-wrap basis-33">
-			BLOQUE HABILIDADES
+		<div class="d-flex flex-wrap basis-34">
+			<h2>Habilidades básicas</h2>
 		</div>
-		<div class="d-flex basis-34">
-			BLOQUE ESPECIALIZACIONES
+		<div class="d-flex basis-66">
+			<h2>Habilidades profesionales</h2>
 		</div>
 	</div>
 	<div class="d-flex">
 		TERCER BLOQUE
 	</div>
-
-
-	<!-- 
-	<div class="d-flex flex-row">
-		<div class="flex-fill bg-primary text-white">
-			<div class="d-inline-flex p-6 bd-highlight">
-				<table class="table border m-1">
-					<thead>
-					  <tr>
-						<th scope="col">&nbsp;</th>
-						<th scope="col">Inicial</th>
-						<th scope="col">Temporal</th>
-						<th scope="col">Actual</th>
-					  </tr>
-					</thead>
-					<tbody>
-					  <tr>
-						<th scope="row">FUERZA</th>
-						<td>12</td>
-						<td>16</td>
-						<td>12</td>
-					  </tr>
-					  <tr>
-						<th scope="row">CONSTITUCION</th>
-						<td>12</td>
-						<td>16</td>
-						<td>12</td>
-					  </tr>
-					  <tr>
-						<th scope="row">TAMAÑO</th>
-						<td>12</td>
-						<td>16</td>
-						<td>12</td>
-					  </tr>
-					  <tr>
-						<th scope="row">DESTREZA</th>
-						<td>12</td>
-						<td>16</td>
-						<td>12</td>
-					  </tr>
-					  <tr>
-						<th scope="row">INTELIGENCIA</th>
-						<td>12</td>
-						<td>16</td>
-						<td>12</td>
-					  </tr>
-					  <tr>
-						<th scope="row">PODER</th>
-						<td>12</td>
-						<td>16</td>
-						<td>12</td>
-					  </tr>
-					  <tr>
-						<th scope="row">CARISMA</th>
-						<td>12</td>
-						<td>16</td>
-						<td>12</td>
-					  </tr>
-					</tbody>
-				  </table>
-			</div>
-  			<div class="d-inline-flex p-6 bd-highlight">
-				  <table class="table border">
-				<thead>
-				  <tr>
-					<th scope="col">#</th>
-					<th scope="col">First</th>
-					<th scope="col">Last</th>
-					<th scope="col">Handle</th>
-				  </tr>
-				</thead>
-				<tbody>
-				  <tr>
-					<th scope="row">1</th>
-					<td>Mark</td>
-					<td>Otto</td>
-					<td>@mdo</td>
-				  </tr>
-				  <tr>
-					<th scope="row">2</th>
-					<td>Jacob</td>
-					<td>Thornton</td>
-					<td>@fat</td>
-				  </tr>
-				  <tr>
-					<th scope="row">3</th>
-					<td colspan="2">Larry the Bird</td>
-					<td>@twitter</td>
-				  </tr>
-				</tbody>
-			  </table></div>
-			<div class="bg-secondary text-white">Flex item 2</div>
-		</div>        
-		<div class="flex-fill bg-warning text-white">Flex item 2</div>     
-	 </div> -->
-
-
-	<!-- <div class="container">
-		<div class="row">
-			<div class="col">
-				<div class="row">
-					<div class="col-6">
-						<table class="table border m-1">
-							<thead>
-							  <tr>
-								<th scope="col">&nbsp;</th>
-								<th scope="col">Inicial</th>
-								<th scope="col">Temporal</th>
-								<th scope="col">Actual</th>
-							  </tr>
-							</thead>
-							<tbody>
-							  <tr>
-								<th scope="row">FUERZA</th>
-								<td>12</td>
-								<td>16</td>
-								<td>12</td>
-							  </tr>
-							  <tr>
-								<th scope="row">CONSTITUCION</th>
-								<td>12</td>
-								<td>16</td>
-								<td>12</td>
-							  </tr>
-							  <tr>
-								<th scope="row">TAMAÑO</th>
-								<td>12</td>
-								<td>16</td>
-								<td>12</td>
-							  </tr>
-							  <tr>
-								<th scope="row">DESTREZA</th>
-								<td>12</td>
-								<td>16</td>
-								<td>12</td>
-							  </tr>
-							  <tr>
-								<th scope="row">INTELIGENCIA</th>
-								<td>12</td>
-								<td>16</td>
-								<td>12</td>
-							  </tr>
-							  <tr>
-								<th scope="row">PODER</th>
-								<td>12</td>
-								<td>16</td>
-								<td>12</td>
-							  </tr>
-							  <tr>
-								<th scope="row">CARISMA</th>
-								<td>12</td>
-								<td>16</td>
-								<td>12</td>
-							  </tr>
-							</tbody>
-						  </table>
-					</div>
-					<div class="col-6">
-						<table class="table border">
-							<thead>
-							  <tr>
-								<th scope="col">#</th>
-								<th scope="col">First</th>
-								<th scope="col">Last</th>
-								<th scope="col">Handle</th>
-							  </tr>
-							</thead>
-							<tbody>
-							  <tr>
-								<th scope="row">1</th>
-								<td>Mark</td>
-								<td>Otto</td>
-								<td>@mdo</td>
-							  </tr>
-							  <tr>
-								<th scope="row">2</th>
-								<td>Jacob</td>
-								<td>Thornton</td>
-								<td>@fat</td>
-							  </tr>
-							  <tr>
-								<th scope="row">3</th>
-								<td colspan="2">Larry the Bird</td>
-								<td>@twitter</td>
-							  </tr>
-							</tbody>
-						  </table>
-					</div>
-					<div class="d-block">
-						Afinidades Rúnicas (pod x2)
-					</div>
-				</div>
-			</div>
-			<div class="col">
-				Puntos de Magia (PM)
-			</div>
-		</div>
-		<div class="row">
-			<div class="col">
-				Habilidades Básicas
-			</div>
-			<div class="col">
-				Habilidades Profesionales
-			</div>
-		<div class="row">
-			<div class="col">
-				Pasiones
-			</div>
-			
-			<div class="col">
-				Experiencia</div>
-			<div class="col">Idiomas</div>
-			
-		</div>
-			
-		</div>
-	</div> -->
 </body>
 
 </html>
